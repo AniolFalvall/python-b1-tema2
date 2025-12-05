@@ -51,7 +51,12 @@ Exemple:
 
 def sum_list_numbers(
     list_numbers):
-    # Write here your code
+    sum = 0
+    i = 0
+    while i < len(list_numbers):
+        sum += list_numbers[i]
+        i += 1
+    return sum
     pass
 
 
@@ -61,4 +66,4 @@ def sum_list_numbers(
 # Si vols provar el teu codi, descomenta les línies següents i executa
 # l'script
 
-# print(sum_list_numbers([50, 10.5, 21, 37.2, 99.9, 40.75, 80]))
+print(sum_list_numbers([50, 10.5, 21, 37.2, 99.9, 40.75, 80]))
