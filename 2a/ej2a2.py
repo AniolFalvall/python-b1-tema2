@@ -65,13 +65,15 @@ Sortida:
 """
 
 
-def tax_calculation_group_1(value: int):
-    # Write here your code
+def tax_calculation_global(value: int):
+    tax_calculation_global = (24 * value)/100
+    return tax_calculation_global
     pass
 
 
-def tax_calculation_global(value: int):
-    # Write here your code
+def tax_calculation_group_1(value: int):
+    tax_calculation_group_1 = (19 * value)/100
+    return tax_calculation_group_1
     pass
 
 
